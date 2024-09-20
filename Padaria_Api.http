@@ -1,0 +1,15 @@
+@Padaria_Api_HostAddress = https://localhost:7284
+
+GET {{Padaria_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{Padaria_Api_HostAddress}}/api/depositos
+Content-Type: application/json
+
+{
+  //Deposito
+}
+
+###
